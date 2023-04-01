@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.container{
+    background: white;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 5px;
+    margin:10px;
+    align-items: center;
+    flex-direction: column;
+    height:400px;
+    width:400px;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+    
+}
+.img-container img{
+    height:145px;
+    width:145px;
+}
+ 
+.review-card-container{
+    background: white;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 5px;
+    margin:10px;
+    align-items: center;
+    flex-direction: column;
+    height:400px;
+    width:400px;
+    padding:10px;
+    
+}
+
+.review-container-flex{
+    display:flex;
+    justify-content: center;
+}
+.main-review{
+    text-align:center;
+}
